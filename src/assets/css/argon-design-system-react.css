@@ -26,6 +26,7 @@
   --green: #2dce89;
   --teal: #11cdef;
   --cyan: #2bffc6;
+  --palegreen: #b1e69e;
   --white: #fff;
   --gray: #8898aa;
   --gray-dark: #32325d;
@@ -7572,6 +7573,14 @@ button.bg-cyan:hover,
 button.bg-cyan:focus {
   background-color: #00f7b5 !important; }
 
+.bg-palegreen {
+  background-color: #b1e69e !important; }
+
+a.bg-palegreen:hover, a.bg-palegreen:focus,
+button.bg-palegreen:hover,
+button.bg-palegreen:focus {
+  background-color: #90dc75 !important; }
+
 .bg-white {
   background-color: #fff !important; }
 
@@ -7678,6 +7687,9 @@ button.bg-lighter:focus {
 .bg-gradient-cyan {
   background: linear-gradient(87deg, #2bffc6 0, #2be0ff 100%) !important; }
 
+.bg-gradient-palegreen {
+  background: linear-gradient(87deg, #b1e69e 0, #9ee6a9 100%) !important; }
+
 .bg-gradient-white {
   background: linear-gradient(87deg, #fff 0, white 100%) !important; }
 
@@ -7692,6 +7704,9 @@ button.bg-lighter:focus {
 
 .bg-gradient-lighter {
   background: linear-gradient(87deg, #e9ecef 0, #e9eaef 100%) !important; }
+
+section {
+  background-color: #fff; }
 
 .section-primary {
   background-color: #fff !important; }
