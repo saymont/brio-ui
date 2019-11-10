@@ -28,7 +28,7 @@ class Hero extends React.Component {
           {/* Hero for FREE version */}
           <section className="section section-lg section-hero section-shaped">
             {/* Background circles */}
-            <div className="shape shape-style-1 shape-default">
+            <div className="shape shape-style-1 shape-dark">
               <span className="span-150" />
               <span className="span-50" />
               <span className="span-50" />
@@ -42,56 +42,35 @@ class Hero extends React.Component {
             </div>
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0">
+
+                <div className="floating-cards">
+                  <h1 className="display-1 text-center text-white" style={{ "font-size": "3.9em" }}>
+                    Entenda-se.
+                    </h1>
+
+                  <h2 className="text-center lead text-white" style={{ "font-size": "1.7em" }}>
+                    Uma plataforma de cuidados com a saúde mental que pensa na autoestima de pessoas de verdade, para que possam fazer mais em um futuro próximo.
+                    </h2>
+                </div>
                 <Row className="align-items-center justify-content-center">
-                  <Col className="text-center" lg="6">
+                  <Col className="text-center" lg="10" sm="10">
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={require("assets/img/brand/argon-react-white.png")}
-                      style={{ width: "200px" }}
+                      src={require("assets/img/brand/element-1-02-1024x577.png")}
+                      style={{ height: "100%", width: "100%" }}
                     />
-                    <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
-                    </p>
-                    <div className="btn-wrapper mt-5">
+                    <div className="btn-wrapper mt-1">
                       <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0"
-                        color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        className="btn-1 ml-1 btn btn-outline-default mb-3 mb-sm-0"
                         size="lg"
                       >
+                        <span className="btn-inner--text">Para terapia</span>
+                        {"  "}
                         <span className="btn-inner--icon mr-1">
-                          <i className="ni ni-cloud-download-95" />
-                        </span>
-                        <span className="btn-inner--text">Download React</span>
-                      </Button>{" "}
-                      <Button
-                        className="btn-icon mb-3 mb-sm-0"
-                        color="github"
-                        href="https://github.com/creativetimofficial/argon-design-system-react"
-                        size="lg"
-                        target="_blank"
-                      >
-                        <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-github" />
-                        </span>
-                        <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Star us</span>
-                          on Github
+                          <i className="ni ni-bold-right" />
                         </span>
                       </Button>
-                    </div>
-                    <div className="mt-5">
-                      <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
-                      </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
-                      />
                     </div>
                   </Col>
                 </Row>
