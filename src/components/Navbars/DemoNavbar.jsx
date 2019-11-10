@@ -58,7 +58,7 @@ class DemoNavbar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
-                  src={require("assets/img/brand/argon-react-white.png")}
+                  src={require("assets/img/brand/cropped-logotipo-fundo-branco-06.png")}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -87,7 +87,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Components</span>
+                      <span className="nav-link-inner--text">Terapia</span>
                     </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
@@ -151,7 +151,27 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Examples</span>
+                      <span className="nav-link-inner--text">Briotext</span>
+                    </DropdownToggle>
+                    <DropdownMenu>
+                      <DropdownItem to="/landing-page" tag={Link}>
+                        Landing
+                      </DropdownItem>
+                      <DropdownItem to="/profile-page" tag={Link}>
+                        Profile
+                      </DropdownItem>
+                      <DropdownItem to="/login-page" tag={Link}>
+                        Login
+                      </DropdownItem>
+                      <DropdownItem to="/register-page" tag={Link}>
+                        Register
+                      </DropdownItem>
+                    </DropdownMenu>
+                  </UncontrolledDropdown>
+                  <UncontrolledDropdown nav>
+                    <DropdownToggle nav>
+                      <i className="ni ni-collection d-lg-none mr-1" />
+                      <span className="nav-link-inner--text">Sobre</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/landing-page" tag={Link}>
@@ -218,22 +238,6 @@ class DemoNavbar extends React.Component {
                       Follow us on Twitter
                     </UncontrolledTooltip>
                   </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href="https://github.com/creativetimofficial/argon-design-system-react"
-                      id="tooltip112445449"
-                      target="_blank"
-                    >
-                      <i className="fa fa-github" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Github
-                      </span>
-                    </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip112445449">
-                      Star us on Github
-                    </UncontrolledTooltip>
-                  </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
                       className="btn-neutral btn-icon"
@@ -242,10 +246,10 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <span className="btn-inner--icon">
-                        <i className="fa fa-cloud-download mr-2" />
+                        <i className="fa fa-user mr-2" />
                       </span>
                       <span className="nav-link-inner--text ml-1">
-                        Download
+                        Crie sua conta
                       </span>
                     </Button>
                   </NavItem>
