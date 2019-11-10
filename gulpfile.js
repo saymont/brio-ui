@@ -1,14 +1,21 @@
-'use strict';
+//gulpfile.js
 
-const gulp = require('gulp');
-
+var gulp = require('gulp');
 var sass = require('gulp-sass');
 
+//style paths
+// var scssFiles = 'src/assets/scss/**/*.scss';
+// var cssDest = 'src/assets/css/';
 
+var scssFiles = 'src/assets/scss/*.scss';
+var cssDest = 'src/assets/css/';
 
-function defaultTask(cb) {
-    gulp.task('sass', function () { gulp.src('src/assets/scss/bootstrap/utilities/*.scss').pipe(sass().on('error', sass.logError)).pipe(gulp.dest('src/assets/css')); });
-    cb();
-  }
-  
-  exports.default = defaultTask
+gulp.task('style', async function () {
+  gulp.src(scssFiles)
+    .pipe(sass({ 
+      errorLogToConsole: true,
+      outputStyle: 'compressed' 
+    }))
+    .on('error', console.error.bind(console))
+    .pipe(gulp.dest(cssDest));
+});
