@@ -44,11 +44,11 @@ class Hero extends React.Component {
               <div className="col px-0">
 
                 <div className="floating-cards">
-                  <h1 className="display-1 text-center text-white" style={{ "font-size": "3.9em" }}>
+                  <h1 className="display-1 text-center text-white">
                     Entenda-se.
                     </h1>
 
-                  <h2 className="text-center lead text-white" style={{ "font-size": "1.7em" }}>
+                  <h2 className="text-center lead text-white">
                     Uma plataforma de cuidados com a saúde mental que pensa na autoestima de pessoas de verdade, para que possam fazer mais em um futuro próximo.
                     </h2>
                 </div>

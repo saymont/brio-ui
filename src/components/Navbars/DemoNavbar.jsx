@@ -87,7 +87,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Terapia</span>
+                      <span className="nav-link-inner--text" style={{ "font-size": "1.2em" }}>Terapia</span>
                     </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
@@ -151,7 +151,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Briotext</span>
+                      <span className="nav-link-inner--text" style={{ "font-size": "1.2em" }}>Briotext</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/landing-page" tag={Link}>
@@ -171,7 +171,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Sobre</span>
+                      <span className="nav-link-inner--text" style={{ "font-size": "1.2em" }}>Sobre</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/landing-page" tag={Link}>
@@ -240,16 +240,25 @@ class DemoNavbar extends React.Component {
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
-                      className="btn-neutral btn-icon"
+                      className="btn-neutral btn-icon btn-sm"
                       color="default"
                       href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
                       target="_blank"
                     >
-                      <span className="btn-inner--icon">
-                        <i className="fa fa-user mr-2" />
-                      </span>
                       <span className="nav-link-inner--text ml-1">
-                        Crie sua conta
+                        Sign in
+                      </span>
+                    </Button>
+                  </NavItem>
+                  <NavItem>
+                    <Button
+                      className="btn-neutral btn-icon btn-sm"
+                      color="default"
+                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
+                      target="_blank"
+                    >
+                      <span className="nav-link-inner--text ml-1">
+                        Sign up
                       </span>
                     </Button>
                   </NavItem>

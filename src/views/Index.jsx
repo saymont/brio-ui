@@ -18,7 +18,12 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row } from "reactstrap";
+import {
+  Button,
+  Container,
+  Row,
+  Col
+} from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
@@ -58,39 +63,37 @@ class Index extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <Hero />
+          <Container className="py-lg-md d-flex">
+            <div className="col px-0">
+              <Row className="align-items-center justify-content-center">
+                <Col lg="8" xs="12">
+                  <h4 className="text-center">
+                    O Briosense quer fazer com que a compreensão torne as coisas leves e suportáveis.
+                </h4>
+                <div className="mt-4 pull-left col-xs-6">
+                  <Button className="btn-1" color="primary" type="button">
+                    Play Store
+                    {"  "}
+                    <span className="btn-inner--icon ml-2">
+                    <img src={require("assets/img/icons/common/google-play-store.svg")}/>
+                    </span>
+                  </Button>
+                  </div>
+                  <div className="mt-4 pull-right col-xs-6">
+                  <Button className="btn-1" color="primary" type="button">
+                    App Store
+                    {"  "}
+                    <span className="btn-inner--icon ml-2">
+                    <img src={require("assets/img/icons/common/app-store.svg")}/>
+                    </span>
+                  </Button>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </Container>
           <Buttons />
-          <Inputs />
-          <section className="section">
-            <Container>
-              <CustomControls />
-              <Menus />
-            </Container>
-          </section>
-          <Navbars />
-          <section className="section section-components">
-            <Container>
-              <Tabs />
-              <Row className="row-grid justify-content-between align-items-center mt-lg">
-                <Progress />
-                <Pagination />
-              </Row>
-              <Row className="row-grid justify-content-between">
-                <Pills />
-                <Labels />
-              </Row>
-              <Alerts />
-              <Typography />
-              <Modals />
-              <Datepicker />
-              <TooltipPopover />
-            </Container>
-          </section>
-          <Carousel />
-          <Icons />
-          <Login />
-          <Download />
         </main>
-        <CardsFooter />
       </>
     );
   }
