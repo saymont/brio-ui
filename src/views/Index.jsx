@@ -70,24 +70,57 @@ class Index extends React.Component {
                   <h4 className="text-center">
                     O Briosense quer fazer com que a compreensão torne as coisas leves e suportáveis.
                 </h4>
-                <div className="mt-4 pull-left col-xs-6">
-                  <Button className="btn-1" color="primary" type="button">
-                    Play Store
+                  <div className="mt-4 pull-left col-xs-6">
+                    <Button className="btn-1" color="primary" type="button">
+                      Play Store
                     {"  "}
-                    <span className="btn-inner--icon ml-2">
-                    <img src={require("assets/img/icons/common/google-play-store.svg")}/>
-                    </span>
-                  </Button>
+                      <span className="btn-inner--icon ml-2">
+                        <img src={require("assets/img/icons/common/google-play-store.svg")} />
+                      </span>
+                    </Button>
                   </div>
                   <div className="mt-4 pull-right col-xs-6">
-                  <Button className="btn-1" color="primary" type="button">
-                    App Store
+                    <Button className="btn-1" color="primary" type="button">
+                      App Store
                     {"  "}
-                    <span className="btn-inner--icon ml-2">
-                    <img src={require("assets/img/icons/common/app-store.svg")}/>
-                    </span>
-                  </Button>
+                      <span className="btn-inner--icon ml-2">
+                        <img src={require("assets/img/icons/common/app-store.svg")} />
+                      </span>
+                    </Button>
                   </div>
+                  </Col>
+                  </Row>
+                <Row>
+                <Col lg="12" xs="12">
+
+                  <div className="mt-5 pull-left col-lg-4">
+                    <img src={require("assets/img/brand/elementos1-01-1.png")}
+                      className="img-fluid"
+                    />
+                    <h1 className="text-center heading-section text-primary mb-md-1">GEOLOCALIZAÇÃO</h1>
+                    <h6 className="text-center display-4">Encontre psicólogos
+                  próximos de você</h6>
+                    <p className="text-center lead">O profissional que você preferir, no momento que você precisar, pertinho de você.</p>
+                  </div>
+
+                  <div className="mt-5 pull-left col-lg-4">
+                    <img src={require("assets/img/brand/elementos2-02-1.png")}
+                      className="img-fluid"
+                    />
+                    <h1 className="text-center heading-section text-primary mb-md-1">CONTEÚDO</h1>
+                    <h6 className="text-center display-4">Compreensão e autoestima para ler, assistir e ouvir</h6>
+                    <p className="text-center lead">Assuntos relevantes sobre cultura e o mundo em geral, contextualizados com a saúde mental.</p>
+                  </div>
+
+                  <div className="mt-5 pull-right col-lg-4">
+                    <img src={require("assets/img/brand/elementos3-03.png")}
+                      className="img-fluid"
+                    />
+                    <h1 className="text-center heading-section text-primary mb-md-1">DIÁLOGO</h1>
+                    <h6 className="text-center display-4">Para pessoas, todos os tipos delas.</h6>
+                    <p className="text-center lead">Os traços humanos nos diferenciam, trabalhar esses pontos resgata a importância das relações.</p>
+                  </div>
+
                 </Col>
               </Row>
             </div>
