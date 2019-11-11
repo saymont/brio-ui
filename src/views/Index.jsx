@@ -19,6 +19,7 @@ import React from "react";
 
 // reactstrap components
 import {
+  Card,
   Button,
   Container,
   Row,
@@ -32,6 +33,7 @@ import CardsFooter from "components/Footers/CardsFooter.jsx";
 // index page sections
 import Hero from "./IndexSections/Hero.jsx";
 import Buttons from "./IndexSections/Buttons.jsx";
+import Footer from "../components/Footers/SimpleFooter";
 import Inputs from "./IndexSections/Inputs.jsx";
 import CustomControls from "./IndexSections/CustomControls.jsx";
 import Menus from "./IndexSections/Menus.jsx";
@@ -88,9 +90,9 @@ class Index extends React.Component {
                       </span>
                     </Button>
                   </div>
-                  </Col>
-                  </Row>
-                <Row>
+                </Col>
+              </Row>
+              <Row className="mb-5">
                 <Col lg="12" xs="12">
 
                   <div className="mt-5 pull-left col-lg-4">
@@ -123,10 +125,39 @@ class Index extends React.Component {
 
                 </Col>
               </Row>
+
+              <Row className="mt-5 mb-5">
+                <Col lg="12" xs="12">
+                <Card className="bg-secondary shadow border-0 pull-left col-lg-5">
+                    <h1 className="display-3">Compreender & cuidar</h1>
+                    <h4 className="lead">Deixar os grilos de lado nem sempre é a melhor opção, não é porque seu problema não é visível que ele é menos digno de atenção.</h4>
+                    <Button className="btn-1 m-2" color="primary" type="button">
+                      Leia Sobre
+                    {"  "}
+                      <span className="btn-inner--icon ml-2">
+                        <i className="ni ni-bold-right"></i>
+                      </span>
+                    </Button>
+                    <Button className="btn-1 m-2" color="primary" type="button">
+                      Para Terapia
+                    {"  "}
+                      <span className="btn-inner--icon ml-2">
+                        <i className="ni ni-button-play"></i>
+                      </span>
+                    </Button>
+                  </Card>
+
+                  <Card className="col-lg-7 pull-left">
+                    <img src={require("assets/img/brand/sobre2.1-01.png")}
+                      className="img-fluid"
+                    />
+                  </Card>
+                </Col>
+              </Row>
             </div>
           </Container>
-          <Buttons />
         </main>
+        <Footer />
       </>
     );
   }

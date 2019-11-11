@@ -114,7 +114,8 @@ $brand-colors: map-merge((
   "youtube":      $youtube,
   "slack":        $slack,
   "dribbble":     $dribbble,
-  "github":       $github
+  "github":       $github,
+  "an": $secondary
 ), $brand-colors);
 
 $shape-colors: () !default;

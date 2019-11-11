@@ -38,13 +38,23 @@ class SimpleFooter extends React.Component {
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                  TEM UMA PERGUNTA?
                 </h3>
-                <h4 className=" mb-0 font-weight-light">
-                  Let's get in touch on any of these platforms.
+                <h4 className="ml-2 mb-0 font-weight-light">
+                  help@briosense.com.br
                 </h4>
               </Col>
-              <Col className=" text-lg-center btn-wrapper" lg="6">
+              <Col className="text-lg-center btn-wrapper" lg="6">
+                <span>
+                  <img
+                    src={require("assets/img/brand/apple-icon.png")}
+                    alt="..."
+                    style={{ height: "15%", width: "15%" }}
+                  /></span>
+
+                <h4 className=" mb-3 font-weight-light">
+                  @briosensebr
+                </h4>
                 <Button
                   className=" btn-neutral btn-icon-only btn-round"
                   color="twitter"
@@ -73,30 +83,50 @@ class SimpleFooter extends React.Component {
                 </UncontrolledTooltip>
                 <Button
                   className=" btn-neutral btn-icon-only btn-round ml-1"
-                  color="dribbble"
+                  color="instagram"
                   href="https://dribbble.com/creativetim"
                   id="tooltip568564532"
                   size="lg"
                   target="_blank"
                 >
-                  <i className=" fa fa-dribbble" />
+                  <i className=" fa fa-instagram" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip568564532">
                   Follow us
                 </UncontrolledTooltip>
                 <Button
                   className=" btn-neutral btn-icon-only btn-round ml-1"
-                  color="github"
-                  href="https://github.com/creativetimofficial"
-                  id="tooltip626177562"
+                  href="https://dribbble.com/creativetim"
+                  id="tooltip568564532"
                   size="lg"
                   target="_blank"
                 >
-                  <i className=" fa fa-github" />
+                  <span>
+                    <img src={require("assets/img/icons/common/linkedin-icon.svg")}
+                    />
+                  </span>
                 </Button>
-                <UncontrolledTooltip delay={0} target="tooltip626177562">
-                  Star on Github
+                <UncontrolledTooltip delay={0} target="tooltip568564532">
+                  Follow us
                 </UncontrolledTooltip>
+
+                <Button
+                  className="btn-icon-only btn-round ml-1"
+                  color="an"
+                  href="https://dribbble.com/creativetim"
+                  id="tooltip568564532"
+                  size="lg"
+                  target="_blank"
+                >
+                  <span>
+                    <img src={require("assets/img/icons/common/spotify.svg")}
+                    />
+                  </span>
+                </Button>
+                <UncontrolledTooltip delay={0} target="tooltip568564532">
+                  Follow us
+                </UncontrolledTooltip>
+
               </Col>
             </Row>
             <hr />
@@ -108,7 +138,7 @@ class SimpleFooter extends React.Component {
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
-                    Creative Tim
+                    Briosense
                   </a>
                   .
                 </div>
@@ -120,7 +150,7 @@ class SimpleFooter extends React.Component {
                       href="https://www.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
-                      Creative Tim
+                      Briosense
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -128,7 +158,7 @@ class SimpleFooter extends React.Component {
                       href="https://www.creative-tim.com/presentation?ref=adsr-footer"
                       target="_blank"
                     >
-                      About Us
+                      Sobre Nós
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -136,15 +166,7 @@ class SimpleFooter extends React.Component {
                       href="http://blog.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
-                      Blog
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
-                      target="_blank"
-                    >
-                      MIT License
+                      Briotext
                     </NavLink>
                   </NavItem>
                 </Nav>

@@ -48,7 +48,7 @@ class Hero extends React.Component {
                     Entenda-se.
                     </h1>
 
-                  <h2 className="text-center lead text-white">
+                  <h2 className="text-center lead text-white font-weight-bold">
                     Uma plataforma de cuidados com a saúde mental que pensa na autoestima de pessoas de verdade, para que possam fazer mais em um futuro próximo.
                     </h2>
                 </div>
@@ -62,7 +62,7 @@ class Hero extends React.Component {
                     />
                     <div className="btn-wrapper mt-1">
                       <Button
-                        className="btn-1 ml-1 btn btn-outline-default mb-3 mb-sm-0"
+                        className="btn-round btn-1 ml-1 btn btn-outline-default mb-3 mb-sm-0"
                         size="lg"
                       >
                         <span className="btn-inner--text">Para terapia</span>
