@@ -50,7 +50,7 @@ class Login extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <section className="section section-shaped section-lg">
-            <div className="shape shape-style-1 bg-gradient-default">
+            <div className="shape shape-style-1 shape-dark">
               <span />
               <span />
               <span />
@@ -66,11 +66,11 @@ class Login extends React.Component {
                   <Card className="bg-secondary shadow border-0">
                     <CardHeader className="bg-white pb-5">
                       <div className="text-muted text-center mb-3">
-                        <small>Sign in with</small>
+                        <small>Login</small>
                       </div>
                       <div className="btn-wrapper text-center">
                         <Button
-                          className="btn-neutral btn-icon"
+                          className="btn-neutral btn-icon m-2"
                           color="default"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -78,13 +78,13 @@ class Login extends React.Component {
                           <span className="btn-inner--icon mr-1">
                             <img
                               alt="..."
-                              src={require("assets/img/icons/common/github.svg")}
+                              src={require("assets/img/icons/common/linkedin-icon.svg")}
                             />
                           </span>
-                          <span className="btn-inner--text">Github</span>
+                          <span className="btn-inner--text">linkedin</span>
                         </Button>
                         <Button
-                          className="btn-neutral btn-icon ml-1"
+                          className="btn-neutral btn-icon ml-1 m-2"
                           color="default"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -101,7 +101,7 @@ class Login extends React.Component {
                     </CardHeader>
                     <CardBody className="px-lg-5 py-lg-5">
                       <div className="text-center text-muted mb-4">
-                        <small>Or sign in with credentials</small>
+                        <small>Ou entre com as suas credenciais</small>
                       </div>
                       <Form role="form">
                         <FormGroup className="mb-3">
@@ -122,7 +122,7 @@ class Login extends React.Component {
                               </InputGroupText>
                             </InputGroupAddon>
                             <Input
-                              placeholder="Password"
+                              placeholder="Senha"
                               type="password"
                               autoComplete="off"
                             />
@@ -138,7 +138,7 @@ class Login extends React.Component {
                             className="custom-control-label"
                             htmlFor=" customCheckLogin"
                           >
-                            <span>Remember me</span>
+                            <span>Lembre-me</span>
                           </label>
                         </div>
                         <div className="text-center">
@@ -147,7 +147,7 @@ class Login extends React.Component {
                             color="primary"
                             type="button"
                           >
-                            Sign in
+                            Login
                           </Button>
                         </div>
                       </Form>
@@ -160,7 +160,7 @@ class Login extends React.Component {
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
-                        <small>Forgot password?</small>
+                        <small>Esqueceu a senha?</small>
                       </a>
                     </Col>
                     <Col className="text-right" xs="6">
@@ -169,7 +169,7 @@ class Login extends React.Component {
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
-                        <small>Create new account</small>
+                        <small>Crie uma nova conta</small>
                       </a>
                     </Col>
                   </Row>

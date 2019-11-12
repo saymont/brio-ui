@@ -50,7 +50,7 @@ class Register extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <section className="section section-shaped section-lg">
-            <div className="shape shape-style-1 bg-gradient-default">
+            <div className="shape shape-style-1 shape-dark">
               <span />
               <span />
               <span />
@@ -66,11 +66,11 @@ class Register extends React.Component {
                   <Card className="bg-secondary shadow border-0">
                     <CardHeader className="bg-white pb-5">
                       <div className="text-muted text-center mb-3">
-                        <small>Sign up with</small>
+                        <small>Registre-se</small>
                       </div>
                       <div className="text-center">
-                        <Button
-                          className="btn-neutral btn-icon mr-4"
+                      <Button
+                          className="btn-neutral btn-icon m-2"
                           color="default"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -78,13 +78,13 @@ class Register extends React.Component {
                           <span className="btn-inner--icon mr-1">
                             <img
                               alt="..."
-                              src={require("assets/img/icons/common/github.svg")}
+                              src={require("assets/img/icons/common/linkedin-icon.svg")}
                             />
                           </span>
-                          <span className="btn-inner--text">Github</span>
+                          <span className="btn-inner--text">linkedin</span>
                         </Button>
                         <Button
-                          className="btn-neutral btn-icon ml-1"
+                          className="btn-neutral btn-icon ml-1 m-2"
                           color="default"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
@@ -101,7 +101,7 @@ class Register extends React.Component {
                     </CardHeader>
                     <CardBody className="px-lg-5 py-lg-5">
                       <div className="text-center text-muted mb-4">
-                        <small>Or sign up with credentials</small>
+                        <small>Ou entre com as suas credenciais</small>
                       </div>
                       <Form role="form">
                         <FormGroup>
@@ -111,7 +111,7 @@ class Register extends React.Component {
                                 <i className="ni ni-hat-3" />
                               </InputGroupText>
                             </InputGroupAddon>
-                            <Input placeholder="Name" type="text" />
+                            <Input placeholder="Nome" type="text" />
                           </InputGroup>
                         </FormGroup>
                         <FormGroup>
@@ -132,7 +132,7 @@ class Register extends React.Component {
                               </InputGroupText>
                             </InputGroupAddon>
                             <Input
-                              placeholder="Password"
+                              placeholder="Senha"
                               type="password"
                               autoComplete="off"
                             />
@@ -140,9 +140,9 @@ class Register extends React.Component {
                         </FormGroup>
                         <div className="text-muted font-italic">
                           <small>
-                            password strength:{" "}
+                            Segurança da senha:{" "}
                             <span className="text-success font-weight-700">
-                              strong
+                              forte
                             </span>
                           </small>
                         </div>
@@ -159,12 +159,12 @@ class Register extends React.Component {
                                 htmlFor="customCheckRegister"
                               >
                                 <span>
-                                  I agree with the{" "}
+                                Eu concordo com a {" "}
                                   <a
                                     href="#pablo"
                                     onClick={e => e.preventDefault()}
                                   >
-                                    Privacy Policy
+                                    Política de privacidade
                                   </a>
                                 </span>
                               </label>
@@ -177,7 +177,7 @@ class Register extends React.Component {
                             color="primary"
                             type="button"
                           >
-                            Create account
+                            Criar conta
                           </Button>
                         </div>
                       </Form>

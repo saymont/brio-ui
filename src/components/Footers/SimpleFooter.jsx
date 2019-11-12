@@ -58,7 +58,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className=" btn-neutral btn-icon-only btn-round"
                   color="twitter"
-                  href="https://twitter.com/creativetim"
+                  href="https://twitter.com/briosensebr"
                   id="tooltip126536702"
                   size="lg"
                   target="_blank"
@@ -71,7 +71,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className=" btn-neutral btn-icon-only btn-round ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.facebook.com/briosense"
                   id="tooltip383967593"
                   size="lg"
                   target="_blank"
@@ -84,7 +84,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className=" btn-neutral btn-icon-only btn-round ml-1"
                   color="instagram"
-                  href="https://dribbble.com/creativetim"
+                  href="https://instagram.com/briosensebr?igshid=x0car84rfply"
                   id="tooltip568564532"
                   size="lg"
                   target="_blank"
@@ -96,7 +96,7 @@ class SimpleFooter extends React.Component {
                 </UncontrolledTooltip>
                 <Button
                   className=" btn-neutral btn-icon-only btn-round ml-1"
-                  href="https://dribbble.com/creativetim"
+                  href="https://www.linkedin.com/company/briosenseapp"
                   id="tooltip568564532"
                   size="lg"
                   target="_blank"
@@ -113,7 +113,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className="btn-icon-only btn-round ml-1"
                   color="an"
-                  href="https://dribbble.com/creativetim"
+                  href="https://open.spotify.com/user/gd1yktg5r7ko1cd5soicmsbkq?si=LR1ZKKCwQgCJGwOjaven_w"
                   id="tooltip568564532"
                   size="lg"
                   target="_blank"
@@ -135,7 +135,7 @@ class SimpleFooter extends React.Component {
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href=""
                     target="_blank"
                   >
                     Briosense
@@ -147,7 +147,7 @@ class SimpleFooter extends React.Component {
                 <Nav className=" nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
+                      href=""
                       target="_blank"
                     >
                       Briosense
@@ -155,7 +155,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
+                      href=""
                       target="_blank"
                     >
                       Sobre Nós
@@ -163,7 +163,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
+                      href=""
                       target="_blank"
                     >
                       Briotext

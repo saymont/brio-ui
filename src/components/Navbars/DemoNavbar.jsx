@@ -71,7 +71,7 @@ class DemoNavbar extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={require("assets/img/brand/cropped-logotipo-fundo-branco-06.png")}
                         />
                       </Link>
                     </Col>
@@ -101,17 +101,15 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
-                              Getting started
+                              Psicólogos
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Learn how to use Argon compiling Scss, change
-                              brand colors and more.
+                            O profissional que você preferir, no momento que você precisar, pertinho de você.
                             </p>
                           </Media>
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar"
                           target="_blank"
                         >
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
@@ -119,17 +117,15 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
-                              Foundation
+                              Briotext
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Learn more about colors, typography, icons and the
-                              grid system we used for Argon.
+                            Assuntos relevantes sobre cultura e o mundo em geral, contextualizados com a saúde mental.
                             </p>
                           </Media>
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alert?ref=adsr-navbar"
                           target="_blank"
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
@@ -137,11 +133,10 @@ class DemoNavbar extends React.Component {
                           </div>
                           <Media body className="ml-3">
                             <h5 className="heading text-warning mb-md-1">
-                              Components
+                              Diálogo
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Browse our 50 beautiful handcrafted components
-                              offered in the Free version.
+                            Os traços humanos nos diferenciam, trabalhar esses pontos resgata a importância das relações.
                             </p>
                           </Media>
                         </Media>
@@ -153,29 +148,21 @@ class DemoNavbar extends React.Component {
                       <i className="ni ni-collection d-lg-none mr-1" />
                       <span className="nav-link-inner--text" style={{ "font-size": "1.2em" }}>Briotext</span>
                     </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Landing
-                      </DropdownItem>
-                      <DropdownItem to="/profile-page" tag={Link}>
-                        Profile
-                      </DropdownItem>
-                      <DropdownItem to="/login-page" tag={Link}>
-                        Login
-                      </DropdownItem>
-                      <DropdownItem to="/register-page" tag={Link}>
-                        Register
-                      </DropdownItem>
-                    </DropdownMenu>
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
+                      <i className="ni ni-active-40 d-lg-none mr-1" />
                       <span className="nav-link-inner--text" style={{ "font-size": "1.2em" }}>Sobre</span>
                     </DropdownToggle>
+                  </UncontrolledDropdown>
+                  <UncontrolledDropdown nav>
+                    <DropdownToggle nav>
+                      <i className="ni ni-archive-2 d-lg-none mr-1" />
+                      <span className="nav-link-inner--text" style={{ "font-size": "1.2em" }}>Telas</span>
+                    </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Landing
+                      <DropdownItem to="/" tag={Link}>
+                        Home
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
@@ -193,23 +180,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
-                      id="tooltip333589074"
-                      target="_blank"
-                    >
-                      <i className="fa fa-facebook-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
-                      </span>
-                    </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Like us on Facebook
-                    </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href="https://www.instagram.com/creativetimofficial"
+                      href="https://instagram.com/briosensebr?igshid=x0car84rfply"
                       id="tooltip356693867"
                       target="_blank"
                     >
@@ -219,13 +190,13 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow us on Instagram
+                      Nos siga no Instagram
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://twitter.com/creativetim"
+                      href="https://twitter.com/briosensebr"
                       id="tooltip184698705"
                       target="_blank"
                     >
@@ -235,32 +206,40 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip184698705">
-                      Follow us on Twitter
+                      Nos siga no Twitter
                     </UncontrolledTooltip>
                   </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
-                    <Button
-                      className="btn-neutral btn-icon btn-sm"
-                      color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://open.spotify.com/user/gd1yktg5r7ko1cd5soicmsbkq?si=LR1ZKKCwQgCJGwOjaven_w"
+                      id="tooltip184698704"
                       target="_blank"
                     >
-                      <span className="nav-link-inner--text ml-1">
-                        Sign in
+                      <i className="fa fa-spotify" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Spotify
                       </span>
-                    </Button>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip184698704">
+                      Nos siga no Spotify
+                    </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
-                    <Button
-                      className="btn-neutral btn-icon btn-sm"
-                      color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://www.linkedin.com/company/briosenseapp"
+                      id="tooltip333589074"
                       target="_blank"
                     >
-                      <span className="nav-link-inner--text ml-1">
-                        Sign up
+                      <i className="fa fa-linkedin-square" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Linkedin
                       </span>
-                    </Button>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip333589074">
+                      Nos siga no Linkedin
+                    </UncontrolledTooltip>
                   </NavItem>
                 </Nav>
               </UncontrolledCollapse>
