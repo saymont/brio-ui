@@ -58,7 +58,9 @@ class Index extends React.Component {
                       Play Store
                     {"  "}
                       <span className="btn-inner--icon ml-2">
-                        <img src={require("assets/img/icons/common/google-play-store.svg")} />
+                        <img src={require("assets/img/icons/common/google-play-store.svg")} 
+                        alt="..."
+                        />
                       </span>
                     </Button>
                   </div>
@@ -67,7 +69,9 @@ class Index extends React.Component {
                       App Store
                     {"  "}
                       <span className="btn-inner--icon ml-2">
-                        <img src={require("assets/img/icons/common/app-store.svg")} />
+                        <img src={require("assets/img/icons/common/app-store.svg")} 
+                        alt="..."
+                        />
                       </span>
                     </Button>
                   </div>
@@ -79,6 +83,7 @@ class Index extends React.Component {
                   <div className="mt-5 pull-left col-lg-4">
                     <img src={require("assets/img/brand/elementos1-01-1.png")}
                       className="img-fluid"
+                      alt="..."
                     />
                     <h1 className="text-center heading-section text-primary mb-md-1">GEOLOCALIZAÇÃO</h1>
                     <h6 className="text-center display-4">Encontre psicólogos
@@ -89,6 +94,7 @@ class Index extends React.Component {
                   <div className="mt-5 pull-left col-lg-4">
                     <img src={require("assets/img/brand/elementos2-02-1.png")}
                       className="img-fluid"
+                      alt="..."
                     />
                     <h1 className="text-center heading-section text-primary mb-md-1">CONTEÚDO</h1>
                     <h6 className="text-center display-4">Compreensão e autoestima para ler, assistir e ouvir</h6>
@@ -98,6 +104,7 @@ class Index extends React.Component {
                   <div className="mt-5 pull-right col-lg-4">
                     <img src={require("assets/img/brand/elementos3-03.png")}
                       className="img-fluid"
+                      alt="..."
                     />
                     <h1 className="text-center heading-section text-primary mb-md-1">DIÁLOGO</h1>
                     <h6 className="text-center display-4">Para pessoas, todos os tipos delas.</h6>
@@ -131,6 +138,7 @@ class Index extends React.Component {
                   <Card className="col-lg-7 pull-left">
                     <img src={require("assets/img/brand/sobre2.1-01.png")}
                       className="img-fluid"
+                      alt="..."
                     />
                   </Card>
                 </Col>
