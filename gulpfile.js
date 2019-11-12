@@ -10,12 +10,15 @@ var sass = require('gulp-sass');
 var scssFiles = 'src/assets/scss/*.scss';
 var cssDest = 'src/assets/css/';
 
-gulp.task('style', async function () {
+function defaultTask(cb) {
   gulp.src(scssFiles)
-    .pipe(sass({ 
+    .pipe(sass({
       errorLogToConsole: true,
-      outputStyle: 'compressed' 
+      outputStyle: 'compressed'
     }))
     .on('error', console.error.bind(console))
     .pipe(gulp.dest(cssDest));
-});
+  cb();
+}
+
+exports.default = defaultTask
