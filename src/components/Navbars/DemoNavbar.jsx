@@ -86,7 +86,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text" style={{ "font-size": "1.2em" }}>Terapia</span>
+                      <span className="nav-link-inner--text" style={{ "fontSize": "1.2em" }}>Terapia</span>
                     </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
@@ -103,7 +103,7 @@ class DemoNavbar extends React.Component {
                               Psicólogos
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                            O profissional que você preferir, no momento que você precisar, pertinho de você.
+                              O profissional que você preferir, no momento que você precisar, pertinho de você.
                             </p>
                           </Media>
                         </Media>
@@ -119,7 +119,7 @@ class DemoNavbar extends React.Component {
                               Briotext
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                            Assuntos relevantes sobre cultura e o mundo em geral, contextualizados com a saúde mental.
+                              Assuntos relevantes sobre cultura e o mundo em geral, contextualizados com a saúde mental.
                             </p>
                           </Media>
                         </Media>
@@ -135,7 +135,7 @@ class DemoNavbar extends React.Component {
                               Diálogo
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                            Os traços humanos nos diferenciam, trabalhar esses pontos resgata a importância das relações.
+                              Os traços humanos nos diferenciam, trabalhar esses pontos resgata a importância das relações.
                             </p>
                           </Media>
                         </Media>
@@ -145,19 +145,19 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text" style={{ "font-size": "1.2em" }}>Briotext</span>
+                      <span className="nav-link-inner--text" style={{ "fontSize": "1.2em" }}>Briotext</span>
                     </DropdownToggle>
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-active-40 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text" style={{ "font-size": "1.2em" }}>Sobre</span>
+                      <span className="nav-link-inner--text" style={{ "fontSize": "1.2em" }}>Sobre</span>
                     </DropdownToggle>
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-archive-2 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text" style={{ "font-size": "1.2em" }}>Telas</span>
+                      <span className="nav-link-inner--text" style={{ "fontSize": "1.2em" }}>Telas</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/" tag={Link}>
